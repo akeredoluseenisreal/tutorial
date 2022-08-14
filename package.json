@@ -1,0 +1,7 @@
+
+{
+  "type": "module",
+  "dependencies": {
+    "logger": "^0.0.1"
+  }
+}

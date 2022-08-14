@@ -1,0 +1,26 @@
+h1{
+    background-color: rgba(242, 111, 111, 0.96);
+    color: rgba(14, 8, 22, 0.627);
+    padding:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: bisque;
+}
+
+h3{
+    background-color: bisque;
+}
+
+h4{
+    background-color: bisque;
+    display: inline-block;
+}
+div{
+    background-color: rgb(79, 79, 220);
+    padding: 10px 20px;
+    display: inline-block;
+}
+

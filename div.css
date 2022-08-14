@@ -1,0 +1,91 @@
+
+body {
+    background-color: lightgoldenrodyellow;
+    
+}
+h1{
+    padding: 20px;
+    margin: 60px;
+    text-align: 20px;
+}
+.container{
+    display: flex;
+    
+}
+.container_1{
+    background-color: rgb(221, 165, 81);
+    width:60%;
+    margin: 5px;
+    padding: 10px;
+    height: 95vh;
+    border-radius: 30px; 
+    overflow: scroll;
+    text-align: center;
+    border:2px solid black;
+    margin-right: 30px;
+}
+img:hover{
+     opacity: 4.0;
+     cursor: pointer;
+     max-width: 70%;
+     height: 30VH;
+     border-radius: 100PX;
+     border:2px solid black;
+     
+}
+.container_2{
+    background-color: rgb(221, 165, 81);
+    width:250%;
+    margin: 5px;
+    padding: 10px;
+    height: 80vh;
+    border-radius: 30px;
+    overflow: scroll;
+    text-align: center;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;
+    background-color: rgb(226, 139, 9);
+    width:40%;
+    height: 15vh;
+    margin: 5px;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+h2:hover{
+    border-radius: 90px;
+    border: 1px solid black;
+    color:brown;
+}
+h2:hover span {
+    display: none;
+}
+h2:hover::before {
+    content:"Tobi";
+
+}
+.but{
+    background-color: rgba(2, 2, 2, 0.922);
+    border: 1px solid;
+    transition: opacity 2s;
+    /* transition: background-color 9s; */
+    color: 3s;
+    font-size: larger;
+}
+.but:hover {
+    opacity: 0.3;
+    transition: background-color 0.15s;
+    color: 1s;
+}
+.but:before{
+    display: none;
+}
+
+.but:active{
+    transition: opacity 0.15s;
+}
+figcaption{
+    overflow: scroll;
+}

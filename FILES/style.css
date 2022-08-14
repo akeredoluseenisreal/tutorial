@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../FILES/image/backg.jpg');
+}
+ul{
+    background-color: rgba(21, 15, 15, 0.739);
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    border-radius: 3px;
+    background-image: url('../FILES/image/backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url('img_girl.jpg');  */
+}
+li{
+    background: rgba(0, 0, 0, 0.628);
+    display: inline-block;
+    padding: 20px;
+    color: burlywood;
+    border-radius:10px;
+}
+h5{
+    background-color: aquamarine;
+    padding: 10px 20px 30px;
+    border-radius:10px;
+    box-shadow: black 10px 10px 10px;
+    text-transform: uppercase;
+}
+div.scrollmenu a {
+    border-radius: 40px;
+    padding: 20px;
+    background-color: burlywood;
+    color: black;
+}
+h2{
+    background-color: aquamarine;
+    padding:10px 20px;
+}
+h4{
+    display:inline-table;
+    padding:70px;
+    border-radius: 10px; 
+}
+img{
+    border-radius:20px;
+}
+p{
+    font-size: large;
+    background: aquamarine;
+    padding:10px 20px 30px;
+    border-radius: 50px;
+    box-shadow: black 10px 10px 10px;
+    text-transform: uppercase;
+}
+button{
+    background-color: rgb(204, 103, 103);
+    color:aliceblue;
+    box-shadow:rgb(53, 35, 13) 10px 10px 10px;
+    padding:10px 20px;
+}
+@media screen and (max-width: 400px) {
+    .feature {
+        background: light green;
+    }
+}
